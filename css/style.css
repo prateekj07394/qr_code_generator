@@ -10,6 +10,7 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
+    background-color: #f7f7f7;
 }
 nav{
     background-color: var(--primary);
@@ -19,6 +20,7 @@ nav{
     align-items: center;
     justify-content: center;
     font-size: 30px;
+    border-bottom: 10px solid var(--secondary);
 }
 div{
     color: var(--main-text);
@@ -39,7 +41,10 @@ button{
     border-radius: 5px;
     background-color: var(--primary);
     color: #fff;
-    border-style: none;
     padding: 10px;
     margin: 10px 0;
+    font-size: 18px;
+}
+input{
+    height: 30px;
 }
